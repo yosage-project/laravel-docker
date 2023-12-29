@@ -19,7 +19,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ../laravel:/var/www/laravel
-      - ./php/php/docker-fpm.ini:/usr/local/etc/php/conf.d/docker-fpm.ini
     working_dir: /var/www/laravel
 
   mysql:
